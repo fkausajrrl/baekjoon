@@ -30,8 +30,7 @@ public class B10828 {
                 case "top":
                     if (count == 0) {
                         sb.append("-1" + "\n"); //스택 비었을 경우
-                    }
-                    else {
+                    } else {
                         sb.append(stack[count - 1]).append("\n"); //top값 출력
                     }
                     break;
@@ -42,17 +41,15 @@ public class B10828 {
                 case "pop":
                     if (count == 0) {
                         sb.append("-1" + "\n"); //스택 비었을 경우
-                    }
-                    else {
+                    } else {
                         sb.append(stack[count - 1]).append("\n"); //top값 출력
                         count--; //빼기
                     }
                     break;
-                case "empty" :
+                case "empty":
                     if (count == 0) {
                         sb.append("1" + "\n"); //스택 비었을 경우
-                    }
-                    else {
+                    } else {
                         sb.append("0" + "\n"); //스택안에 저장 된 값 있음.
                     }
                     break;
