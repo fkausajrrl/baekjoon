@@ -3,7 +3,7 @@ package org.example;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class B9095 {
+public class B9095_123더하기 {
     public static void main(String[] args) throws Exception {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 

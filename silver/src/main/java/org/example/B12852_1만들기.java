@@ -3,7 +3,7 @@ package org.example;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class B12852 {
+public class B12852_1만들기 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
