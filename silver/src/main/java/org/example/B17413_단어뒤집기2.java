@@ -11,7 +11,7 @@ public class B17413_단어뒤집기2 {
         boolean inner = false; //<안에 있는지 여부 확인용
 
         for (char ch : input.toCharArray()) {
-            if (ch == '<') { //괄호 열림
+            if (ch == '<') { //괄호 열림 열림
                 if (!inner) {
                     if (temp.isEmpty()) {
                         sb.append("<");
